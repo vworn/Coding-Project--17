@@ -1,0 +1,3 @@
+💻 Coding Challenge 17: Customer Relationship Management (CRM) System
+📘 Challenge Overview:
+Your task is to design a basic CRM system using JavaScript classes. A small business wants to manage customer data, track sales interactions, and prioritize VIP clients. You'll implement a set of classes to represent customers, sales reps, and VIP customers. This challenge will assess your ability to use object-oriented programming principles including inheritance, method overriding, and array manipulation.
