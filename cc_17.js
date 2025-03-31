@@ -18,3 +18,21 @@ class Customer {
     }
   }
   
+  // Task 2: Create a SalesRep Class
+class SalesRep {
+    constructor(name) {
+      this.name = name;
+      this.clients = []; // stores Customer objects
+    }
+  
+    // Adds a customer to the sales rep’s client list
+    addClient(customer) {
+      this.clients.push(customer);
+    }
+  
+    // Returns the total spent by a specific client (by name)
+    getClientTotal(name) {
+      const client = this.clients.find(c => c.name === name);
+      return client ? client.getTotalSpent() : 0;
+    }
+  }
